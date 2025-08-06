@@ -1,0 +1,290 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Sapkota - Portfolio</title>
+    <meta name="description" content="Himanshu Sapkota - Tech Enthusiast from Butwal, Nepal">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Himanshu</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-toggle">🌙</button></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Hi, I'm <span class="highlight">Himanshu Sapkota</span>
+            </h1>
+            <p class="hero-subtitle">Tech Enthusiast from Butwal, Nepal</p>
+            <p class="hero-description">
+                A passionate learner interested in UI Design, AI/ML, Python, and all things tech.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#projects" class="btn btn-secondary">View Projects</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-block">
+                <div class="code-header">
+                    <div class="dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="code-content">
+                    <p><span class="keyword">const</span> <span class="variable">developer</span> = {</p>
+                    <p>&nbsp;&nbsp;<span class="property">name</span>: <span class="string">"Himanshu"</span>,</p>
+                    <p>&nbsp;&nbsp;<span class="property">location</span>: <span class="string">"Nepal"</span>,</p>
+                    <p>&nbsp;&nbsp;<span class="property">passion</span>: <span class="string">"Technology"</span></p>
+                    <p>};</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate tech enthusiast from Butwal, Nepal, with a deep love for learning and exploring new technologies. My journey in tech spans across multiple domains including UI/UX design, artificial intelligence, machine learning, and full-stack development.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me experimenting with Arduino projects, creating designs in Figma, or diving deep into the latest AI/ML research. I believe in the power of technology to solve real-world problems and make a positive impact.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Technologies</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Years Learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>👨‍💻</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                        <span class="skill-item">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Arduino</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Design</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Figma</span>
+                        <span class="skill-item">Canva</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Other Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Slack</span>
+                        <span class="skill-item">CapCut</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <span>🤖</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI/ML Project</h3>
+                        <p>Machine learning model for data analysis and prediction using Python.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>AI/ML</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <span>🎨</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>UI Design System</h3>
+                        <p>Comprehensive design system created in Figma for modern web applications.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <span>⚡</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Arduino IoT Project</h3>
+                        <p>Smart home automation system using Arduino and sensors.</p>
+                        <div class="project-tech">
+                            <span>Arduino</span>
+                            <span>IoT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <h2 class="section-title">Tools I Use</h2>
+            <div class="tools-grid">
+                <div class="tool-category">
+                    <h3>Design</h3>
+                    <div class="tool-items">
+                        <div class="tool-item">
+                            <span class="tool-icon">🎨</span>
+                            <span>Figma</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-icon">📐</span>
+                            <span>Canva</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-category">
+                    <h3>Development</h3>
+                    <div class="tool-items">
+                        <div class="tool-item">
+                            <span class="tool-icon">🐍</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-icon">⚡</span>
+                            <span>Arduino IDE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-category">
+                    <h3>Communication</h3>
+                    <div class="tool-items">
+                        <div class="tool-item">
+                            <span class="tool-icon">💬</span>
+                            <span>Slack</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-category">
+                    <h3>Video Editing</h3>
+                    <div class="tool-items">
+                        <div class="tool-item">
+                            <span class="tool-icon">🎬</span>
+                            <span>CapCut</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>I'm always excited to collaborate on new projects and explore innovative ideas. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>himanshuspkt@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Butwal, Nepal</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Himanshu Sapkota. Built with ❤️ from Nepal.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
